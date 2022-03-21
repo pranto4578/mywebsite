@@ -1,0 +1,27 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-name {
+  font-family: "Montserrat", sans-serif !important;
+  color: red;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 900px) {
+  .menu-flex {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+}
+@media screen {
+  .menu-flex {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+}
+
+/*# sourceMappingURL=style.scss.map */
