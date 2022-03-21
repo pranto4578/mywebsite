@@ -1,0 +1,118 @@
+.my-name {
+    font-weight: 800;
+    font-size: 24px;
+    color: $seconderyColor !important;
+}
+.nav-single-item {
+    color: $darkColor !important;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    color: $seconderyColor !important;
+    &:hover {
+        color: $primaryColor !important;
+    }
+}
+.nav-single-item-btn {
+    background: $primaryColor;
+    font-size: 12px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    color: $lightColor !important;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    &:hover {
+        background: $seconderyColor !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-single-item {
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .menu-flex {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 0;
+    }
+}
+
+.hero {
+    background: #F9FCFE;
+    padding: 150px 0;
+    .line-top {
+        color: $primaryColor;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    h2 {
+        font-size: 48px;
+        color: $seconderyColor;
+    }
+    h1 {
+        font-size: 56px;
+        color: $seconderyColor;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    .line-bottom {
+        width: 100%;
+        max-width: 500px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    .links {
+        list-style-type: none;
+        padding: 0;
+        li {
+            display: inline-block;
+            .btn-fill {
+                background: $primaryColor;
+                color: $lightColor;
+                padding: 18px 45px;
+                border-radius: 4px;
+                font-weight: 500;
+                text-decoration: none;
+                border: 1px solid $primaryColor;
+                transition: 0.3s;
+                margin-right: 20px;
+                &:hover {
+                    background: transparent;
+                    color: $primaryColor;
+                }
+            }
+            .btn-social {
+                background: transparent;
+                color: $primaryColor;
+                padding: 18px 30px;
+                border-radius: 4px;
+                font-weight: 500;
+                text-decoration: none;
+                border: 1px solid $primaryColor;
+                transition: 0.3s;
+                &:hover {
+                    background: $primaryColor;
+                    color: $lightColor;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 992px){
+    .hero {
+        img {
+            margin-top: 50px;
+        }
+    }
+}
+
+
